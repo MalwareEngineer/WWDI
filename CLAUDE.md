@@ -23,20 +23,20 @@ Anyone can contribute detections in the language of their choosing (Sigma, YARA,
 ├─────────────────────────────────────────────────────┤
 │                                                     │
 │  ┌──────────────┐         ┌──────────────────────┐  │
-│  │  Submit Panel │ ──────▸│  Detection Engine     │  │
+│  │ Submit Panel │ ──────▸ │  Detection Engine    │  │
 │  │              │         │                      │  │
-│  │ • Paste/upload│         │ • Loads detection bank│  │
-│  │   payload     │         │ • Runs input against  │  │
-│  │ • Select kill │         │   all rules           │  │
-│  │   chain phase │         │ • Returns hits/misses │  │
+│  │• Upload      │         │• Load detection bank │  │
+│  │  payload     │         │• Run input against   │  │
+│  │• Select kill │         │   all rules          │  │
+│  │  chain phase │         │• Return hits/misses  │  │
 │  └──────────────┘         └──────────────────────┘  │
 │                                    │                │
 │                          ┌─────────▼─────────┐      │
-│                          │  Results View      │      │
+│                          │  Results View     │      │
 │                          │                   │      │
-│                          │ • Hit/miss summary │      │
-│                          │ • Coverage heatmap │      │
-│                          │ • Gap analysis     │      │
+│                          │• Hit/miss summary │      │
+│                          │• Coverage heatmap │      │
+│                          │• Gap analysis     │      │
 │                          └───────────────────┘      │
 │                                                     │
 └─────────────────────────────────────────────────────┘
