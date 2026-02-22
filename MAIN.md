@@ -1,4 +1,4 @@
-# CLAUDE.md
+# MAIN.md
 
 ## Project: WWDI — Would We Detect It?
 
@@ -74,7 +74,7 @@ Anyone can contribute detections in the language of their choosing (Sigma, YARA,
 ```
 WWDI/
 ├── LICENSE
-├── CLAUDE.md
+├── MAIN.md
 ├── README.md
 ├── index.html                  # Entry point for GitHub Pages
 ├── css/
